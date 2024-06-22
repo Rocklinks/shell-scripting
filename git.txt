@@ -1,0 +1,73 @@
+####Git Commands
+
+##Create 1st Time config
+git config --global user.email rocklin2603@gmail.com
+git config --global suser.name Rocklin
+
+
+##Create a git repos
+mkdir rock
+##git initilaize(empty master repos)
+git init                
+
+##git status(status if being tracked or not)
+git status
+
+##git add
+
+git add . or git add filename(adds files/folder to be commited)
+
+##git commit
+git commit -m 'Added 1 file'(m indicates the message of which file is added)
+
+##git restore(should be done before commit)
+git restore --staged qwe.txt
+
+
+##git log
+git log(History)
+
+##Stash
+git stash(opening stash)
+
+touch 2.txt
+
+git stash
+
+git stash pop
+
+git add .
+
+git stash
+
+git stash clear
+
+git status
+
+##Remote 
+git remote -v
+
+##Add remote
+git remote set-url orogin https://{tokens}@github.com/Rocklinks/{reponame}.git
+
+##Push & Pull
+git push origin main
+
+##Branches
+git checkout {branchname}
+
+git diff {branchname}
+
+git merge {branchname}
+
+
+
+
+
+
+
+
+
+
+
+
